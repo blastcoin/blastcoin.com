@@ -40,14 +40,19 @@ dependencies[] = panels
 dependencies[] = panels_ipe
 dependencies[] = panels_mini
 dependencies[] = panels_node
+dependencies[] = password_policy
 dependencies[] = profile2
 dependencies[] = profile2_page
 dependencies[] = profile2_regpath
 dependencies[] = step
 dependencies[] = strongarm
 dependencies[] = stylizer
+dependencies[] = tfa
+dependencies[] = tfa_basic
 dependencies[] = views
 dependencies[] = views_content
 dependencies[] = views_ui
 
 // CUSTOM MODULES
+
+// FEATURES MODULES

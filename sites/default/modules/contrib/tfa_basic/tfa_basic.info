@@ -1,0 +1,16 @@
+name = "TFA Basic Plugins"
+description = "TFA plugin for Time-based One Time Passwords and Trusted Devices"
+core = 7.x
+
+dependencies[] = tfa
+
+files[] = includes/tfa_totp.inc
+files[] = includes/tfa_trusted_device.inc
+files[] = includes/googleauthenticator/GoogleAuthenticator.php
+
+; Information added by Drupal.org packaging script on 2014-01-29
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "tfa_basic"
+datestamp = "1391024034"
+
