@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function standard_install() {
+function blastcoin_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -69,7 +69,8 @@ function standard_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
+  theme_enable(array("Blastcoin"));
+  $default_theme = variable_get("theme_default", "Blastcoin");  
   $admin_theme = 'seven';
   $blocks = array(
     array(
@@ -422,10 +423,9 @@ function standard_install() {
   menu_rebuild();
 
   // Enable the admin theme.
-  theme_enable(array("InspiroB"));
-  variable_set("admin_theme", "InspiroB");
+  variable_set("theme_default", "Blastcoin");
+  variable_set("admin_theme", "Blastcoin");
   variable_set('node_admin_theme', '1');
-  variable_set("theme_default", "InspiroB");
 
   // Disable the Bartik and Seven themes
   theme_disable(array("bartik", "seven"));
