@@ -28,12 +28,22 @@ dependencies[] = file
 dependencies[] = rdf
 
 // CONTRIBUTED MODULES
+dependencies[] = ckeditor
+dependencies[] = contactinfo
 dependencies[] = ctools
 dependencies[] = entity
 dependencies[] = features
 dependencies[] = fe_profile
 dependencies[] = file_entity
+dependencies[] = globalredirect
+dependencies[] = i18n
+dependencies[] = imce
+dependencies[] = languageicons
+dependencies[] = languageinterface
+dependencies[] = libraries
 dependencies[] = media
+dependencies[] = mollom
+dependencies[] = page_title
 dependencies[] = page_manager
 dependencies[] = panelizer
 dependencies[] = panels
@@ -41,18 +51,23 @@ dependencies[] = panels_ipe
 dependencies[] = panels_mini
 dependencies[] = panels_node
 dependencies[] = password_policy
-dependencies[] = profile2
-dependencies[] = profile2_page
-dependencies[] = profile2_regpath
-dependencies[] = step
+dependencies[] = redirect
+dependencies[] = simplenews
+;dependencies[] = simplenews_realname
+dependencies[] = smtp
 dependencies[] = strongarm
 dependencies[] = stylizer
 dependencies[] = tfa
 dependencies[] = tfa_basic
+dependencies[] = token
+dependencies[] = variable
 dependencies[] = views
 dependencies[] = views_content
+dependencies[] = views_slideshow
+dependencies[] = views_ticker
 dependencies[] = views_ui
 
 // CUSTOM MODULES
 
 // FEATURES MODULES
+dependencies[] = inspiro_content
